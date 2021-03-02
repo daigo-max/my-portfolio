@@ -1,0 +1,55 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+/*
+.home_main {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}*/
+.home_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home_title {
+    font-size: 4rem;
+    text-align: center;
+    margin: 4rem auto 3rem auto;
+}
+.home_flame {
+    padding: 3% 0;
+    /*flex-direction: column;*/
+}
+.home_tag {
+    display: flex;
+	align-items: center;
+}
+.home_tag::before, .home_tag:after {
+    content: "";
+    flex-grow: 1;
+    display: block;
+    height: 1px; /* 線の太さを変えたいときはここを変える */
+    background: #696360; /* 線の色を変えたいときはここを変える */
+}
+.home_grid {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.home_contents {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    flex-basis: 35%;
+}
+.main_footer {
+    border-top :solid 2px #FFA07A;
+}
